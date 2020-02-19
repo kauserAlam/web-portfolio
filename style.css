@@ -63,20 +63,25 @@ section{
     background-image: url("images/exp-bg.png");
     background-repeat: no-repeat;
     background-position: left;
+    overflow: hidden;
+    width: 100%;
 }
 #full-stack{
     border-left: 7px solid;
     border-image: linear-gradient (lightSalmon, tomato);
     border-image-slice: 1;
+    margin-right: 20px;
+    margin-left: 20px;
 }
 #full-stack{
     border-left:7px ;
     border-image: linear-gradient (180deg, blue cyan);
     border-image-slice: 1;    
 }
-#h2left{
+.side-ber{
     text-align: left;
 }
+
 
 
 footer p{
